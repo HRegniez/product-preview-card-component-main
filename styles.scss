@@ -29,8 +29,9 @@ body {
     background-color: $color_prim2;
 }
 
+/************************Card*/
 .card {
-    margin: 10px;
+    margin: 15px;
     background-color: $color_neut3;
     overflow: hidden;
     border-radius: 10px;
@@ -38,5 +39,26 @@ body {
     &_img {
         width: 100%;
         object-fit: contain;
+    }
+
+    &_aside {
+        padding: 25px;
+
+        h3 {
+            font-family: $font_prim;
+            font-weight: $font_wght1;
+            color: $color_neut2;
+        }
+
+        h2 {
+            font-family: $font_sec;
+            font-weight: $font_wght2;
+        }
+
+        p {
+            font-family: $font_prim;
+            color: $color_neut2;
+            font-size: 13px;
+        }
     }
 }

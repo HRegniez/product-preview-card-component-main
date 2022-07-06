@@ -14,8 +14,9 @@ body {
   background-color: hsl(30deg, 38%, 92%);
 }
 
+/************************Card*/
 .card {
-  margin: 10px;
+  margin: 15px;
   background-color: hsl(0deg, 0%, 100%);
   overflow: hidden;
   border-radius: 10px;
@@ -24,4 +25,21 @@ body {
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+.card_aside {
+  padding: 25px;
+}
+.card_aside h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: hsl(228deg, 12%, 48%);
+}
+.card_aside h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+.card_aside p {
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228deg, 12%, 48%);
+  font-size: 13px;
 }/*# sourceMappingURL=styles.css.map */
