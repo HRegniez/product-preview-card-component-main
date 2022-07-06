@@ -1,3 +1,27 @@
-body {
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+/**************************Variables*/
+
+/*colors*/
+$color_prim1: hsl(158, 36%, 37%);
+$color_prim2: hsl(30, 38%, 92%);
+
+$color_neut1: hsl(212, 21%, 14%);
+$color_neut2: hsl(228, 12%, 48%);
+$color_neut3: hsl(0, 0%, 100%);
+
+/*Font family*/
+$font_prim: 'Montserrat', sans-serif;
+$font_sec: 'Fraunces', serif;
+
+/*Font weights*/
+$font_wght1: 500;
+$font_wght2: 700;
+
+/***********************Init*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
