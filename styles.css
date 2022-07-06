@@ -8,4 +8,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30deg, 38%, 92%);
+}
+
+.card {
+  margin: 10px;
+  background-color: hsl(0deg, 0%, 100%);
+  overflow: hidden;
+  border-radius: 10px;
+}
+.card_img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=styles.css.map */

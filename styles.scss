@@ -25,3 +25,18 @@ $font_wght2: 700;
     box-sizing: border-box;
 }
 
+body {
+    background-color: $color_prim2;
+}
+
+.card {
+    margin: 10px;
+    background-color: $color_neut3;
+    overflow: hidden;
+    border-radius: 10px;
+
+    &_img {
+        width: 100%;
+        object-fit: contain;
+    }
+}
