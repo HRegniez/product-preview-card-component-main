@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
 /**************************Variables*/
-/*colors*/
-/*Font family*/
-/*Font weights*/
 /***********************Init*/
 * {
   margin: 0;
@@ -14,13 +11,17 @@ body {
   background-color: hsl(30deg, 38%, 92%);
 }
 
-/************************Card*/
+/***********************************Card*/
 .card {
   margin: 20px auto;
   background-color: hsl(0deg, 0%, 100%);
   overflow: hidden;
   border-radius: 10px;
   width: 360px;
+  /***************Card img*/
+  /**************Card info*/
+  /*****************Card price*/
+  /*****************Card button*/
 }
 .card_img {
   width: 100%;
@@ -82,12 +83,7 @@ body {
   font-size: 14px;
 }
 
-.attribution {
-  position: fixed;
-  bottom: 0px;
-  left: 5px;
-}
-
+/*************************Desktop*/
 @media screen and (min-width: 960px) {
   .card {
     display: flex;
@@ -97,4 +93,9 @@ body {
   .card_aside {
     width: 520px;
   }
+}
+.attribution {
+  position: fixed;
+  bottom: 0px;
+  left: 5px;
 }/*# sourceMappingURL=styles.css.map */
