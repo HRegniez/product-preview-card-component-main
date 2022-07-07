@@ -42,7 +42,7 @@ body {
     }
 
     &_aside {
-        padding: 15px 25px;
+        padding: 20px 25px;
 
         h3 {
             font-family: $font_prim;
@@ -50,7 +50,7 @@ body {
             color: $color_neut2;
             font-size: 13px;
             letter-spacing: 3px;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
 
         h2 {
@@ -65,20 +65,42 @@ body {
             font-family: $font_prim;
             color: $color_neut2;
             font-size: 13px;
-            line-height: 1.5;
+            line-height: 1.7;
         }
     }
 
     &_prices {
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 41px;
 
         .price-down {
             font-family: $font_sec;
             font-size: 30px;
             color: $color_prim1;
+            margin-right: 25px;
+        }
+
+        .price-orig {
+            text-decoration: line-through;
+        }
+    }
+
+    &_btn {
+        margin-top: 5px;
+        height: 50px;
+        background-color: $color_prim1;
+        border-radius: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+        p {
+            color: $color_neut3;
+            margin-left: 13px;
+            font-weight: 700;
+            font-size: 14px;
         }
     }
 }
