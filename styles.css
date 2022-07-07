@@ -27,19 +27,37 @@ body {
      object-fit: contain;
 }
 .card_aside {
-  padding: 25px;
+  padding: 15px 25px;
 }
 .card_aside h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: hsl(228deg, 12%, 48%);
+  font-size: 13px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
 }
 .card_aside h2 {
   font-family: "Fraunces", serif;
   font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 18px;
 }
 .card_aside p {
   font-family: "Montserrat", sans-serif;
   color: hsl(228deg, 12%, 48%);
   font-size: 13px;
+  line-height: 1.5;
+}
+.card_prices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.card_prices .price-down {
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  color: hsl(158deg, 36%, 37%);
 }/*# sourceMappingURL=styles.css.map */

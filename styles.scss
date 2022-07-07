@@ -42,23 +42,43 @@ body {
     }
 
     &_aside {
-        padding: 25px;
+        padding: 15px 25px;
 
         h3 {
             font-family: $font_prim;
             font-weight: $font_wght1;
             color: $color_neut2;
+            font-size: 13px;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
         }
 
         h2 {
             font-family: $font_sec;
             font-weight: $font_wght2;
+            font-size: 30px;
+            line-height: 1;
+            margin-bottom: 18px;
         }
 
         p {
             font-family: $font_prim;
             color: $color_neut2;
             font-size: 13px;
+            line-height: 1.5;
+        }
+    }
+
+    &_prices {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+
+        .price-down {
+            font-family: $font_sec;
+            font-size: 30px;
+            color: $color_prim1;
         }
     }
 }
