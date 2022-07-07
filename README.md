@@ -25,12 +25,13 @@ Users should be able to:
 
 - Git and Github setup to feel confortable with their fonctionnalities
 - HTML structure implementing Emmet and BEM methodologie
-- SCSS/SASS setup to style my HTML
+- Style my HTML with my new SCSS/SASS setup !
+- Animate button
 
 ### Built with (list unfinished)
 
 HTML
-- Semantic HTML5 markup
+- Semantic HTML5
 + Emmet
 + BEM method
 
