@@ -31,10 +31,12 @@ body {
 
 /************************Card*/
 .card {
-    margin: 15px;
+    margin: 20px auto;
     background-color: $color_neut3;
     overflow: hidden;
     border-radius: 10px;
+    width: 360px;
+
 
     &_img {
         width: 100%;
@@ -102,5 +104,28 @@ body {
             font-weight: 700;
             font-size: 14px;
         }
+
+        
     }
 }
+
+.attribution {
+    position: fixed;
+    bottom: 0px;
+    left: 5px;
+}
+
+@media screen and (min-width: 960px) {
+
+    .card {
+        display: flex;
+        width: 569px;
+        height: 424px;
+      
+
+        &_aside {
+            width: 520px;  
+        }
+    }
+} 
+

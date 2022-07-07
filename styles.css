@@ -16,10 +16,11 @@ body {
 
 /************************Card*/
 .card {
-  margin: 15px;
+  margin: 20px auto;
   background-color: hsl(0deg, 0%, 100%);
   overflow: hidden;
   border-radius: 10px;
+  width: 360px;
 }
 .card_img {
   width: 100%;
@@ -79,4 +80,21 @@ body {
   margin-left: 13px;
   font-weight: 700;
   font-size: 14px;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0px;
+  left: 5px;
+}
+
+@media screen and (min-width: 960px) {
+  .card {
+    display: flex;
+    width: 569px;
+    height: 424px;
+  }
+  .card_aside {
+    width: 520px;
+  }
 }/*# sourceMappingURL=styles.css.map */
