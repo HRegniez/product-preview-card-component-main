@@ -75,6 +75,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
+}
+.card_btn:hover {
+  background-color: hsl(158deg, 40%, 27%);
 }
 .card_btn p {
   color: hsl(0deg, 0%, 100%);

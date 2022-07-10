@@ -3,6 +3,7 @@
 /**************************Variables*/
 $color_prim1: hsl(158, 36%, 37%);
 $color_prim2: hsl(30, 38%, 92%);
+$color_prim3: hsl(158, 40%, 27%);
 
 $color_neut1: hsl(212, 21%, 14%);
 $color_neut2: hsl(228, 12%, 48%);
@@ -98,6 +99,11 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+        border: none;
+
+        &:hover {
+            background-color: $color_prim3;
+        }
       
         p {
             color: $color_neut3;
