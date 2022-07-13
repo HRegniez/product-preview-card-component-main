@@ -23,7 +23,7 @@ Your users should be able to:
 
 ## Links
  
- - Live Site URL: (https://hregniez.github.io/qr-code-component-main/)
+ - Live Site URL: (https://hregniez.github.io/product-preview-card-component-main/)
 
 
 ## My process
