@@ -1,24 +1,29 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - Product preview card component
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
-## Table of contents
+## Welcome! 👋
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+Thanks for checking out this front-end coding challenge.
 
-## Overview
+[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-### The challenge
 
-Users should be able to:
+## The challenge
+
+Your challenge is to build out this product preview card component and get it looking as close to the design as possible.
+
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+
+Your users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 - https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa
+
+## Links
+ 
+ - Live Site URL: (https://hregniez.github.io/qr-code-component-main/)
 
 
 ## My process
@@ -28,7 +33,7 @@ Users should be able to:
 - Style my HTML with my new SCSS/SASS setup !
 - Animate button
 
-### Built with (list unfinished)
+### Built with
 
 HTML
 - Semantic HTML5
@@ -42,7 +47,7 @@ CSS
   + Variables
 + Mobile-first workflow
 
-
+Git/Github
 
 ## Author
 
