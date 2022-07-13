@@ -79,6 +79,7 @@ body {
 }
 .card_btn:hover {
   background-color: hsl(158deg, 40%, 27%);
+  cursor: pointer;
 }
 .card_btn p {
   color: hsl(0deg, 0%, 100%);
@@ -96,6 +97,10 @@ body {
   }
   .card_aside {
     width: 520px;
+  }
+  .card_aside h2 {
+    font-size: 26px;
+    margin-bottom: 22px;
   }
 }
 .attribution {
