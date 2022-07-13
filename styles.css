@@ -76,16 +76,17 @@ body {
   align-items: center;
   justify-content: center;
   border: none;
+  color: hsl(0deg, 0%, 100%);
+  margin-left: 13px;
+  font-weight: 700;
+  font-size: 14px;
 }
 .card_btn:hover {
   background-color: hsl(158deg, 40%, 27%);
   cursor: pointer;
 }
-.card_btn p {
-  color: hsl(0deg, 0%, 100%);
-  margin-left: 13px;
-  font-weight: 700;
-  font-size: 14px;
+.card_btn img {
+  margin-right: 15px;
 }
 
 /*************************Desktop*/

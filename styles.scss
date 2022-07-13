@@ -100,20 +100,19 @@ body {
         align-items: center;
         justify-content: center;
         border: none;
+        color: $color_neut3;
+        margin-left: 13px;
+        font-weight: 700;
+        font-size: 14px;
 
         &:hover {
             background-color: $color_prim3;
             cursor: pointer;
-        }
-      
-        p {
-            color: $color_neut3;
-            margin-left: 13px;
-            font-weight: 700;
-            font-size: 14px;
-        }
-
+        }    
         
+        img {
+            margin-right: 15px;
+        }
     }
 }
 
